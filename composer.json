@@ -1,0 +1,13 @@
+{
+    "name": "servtech/building-designer-plugin",
+    "description": "WordPress Building Designer Plugin with PSR-4 autoloading",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BuildingDesigner\\": "includes/"
+        }
+    }
+}
